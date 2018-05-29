@@ -8,8 +8,8 @@ fi
 pushd $YT8M_ROOT > /dev/null
 
 python inference.py \
-       --train_dir ~/yt8m/models/video/sample_model  \
+       --train_dir ~/yt8m/small_sample/models/video/small_sample  \
        --output_file=kaggle_solution.csv \
-       --input_data_pattern=${HOME}/yt8m/video/test*.tfrecord
+       --input_data_pattern=${HOME}/yt8m/small_sample/video/test*.tfrecord
 #
 popd > /dev/null

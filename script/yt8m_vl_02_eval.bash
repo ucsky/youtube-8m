@@ -8,7 +8,7 @@ fi
 pushd $YT8M_ROOT > /dev/null
 
 python3 eval.py \
-       --eval_data_pattern=${HOME}/yt8m/video/validate*.tfrecord \
-       --train_dir ~/yt8m/models/video/sample_model \
+       --eval_data_pattern=${HOME}/yt8m/small_sample/video/validate*.tfrecord \
+       --train_dir ~/yt8m/small_sample/models/video/small_sample \
 #
 popd > /dev/null
